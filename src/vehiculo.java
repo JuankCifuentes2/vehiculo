@@ -12,11 +12,30 @@ public class vehiculo {
     
    public String marca;
    public String modelo;
-   public int anio;
+   private int anio;
    public String color;
    public int VelocidadActual;
    public boolean encendido;
    public String dominio;
+   
+   
+   // metodo para consultar el atributo privado anio
+   
+   public int getAnio(){
+   
+   
+   return this.anio;
+   
+   }
+   
+   
+   // metodo para setear el atributo privado anio
+    public void setAnio(int anio){
+   
+   
+   this.anio = anio;
+   
+   }
    
    
    vehiculo( String domi,String model){

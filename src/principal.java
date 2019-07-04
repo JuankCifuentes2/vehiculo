@@ -20,7 +20,15 @@ public class principal {
         auto1.encendido = false;
         
         auto1.apagar();
-       
+      
+        
+        
+        auto1.setAnio(2010);
+        
+        
+        System.out.println("el auto1 es del año : "  + auto1.getAnio()); 
+        
+        
         
         
         vehiculo auto2 = new vehiculo ("PQ2334","Renault Clio");
