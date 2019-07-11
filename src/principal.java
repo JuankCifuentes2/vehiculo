@@ -19,14 +19,14 @@ public class principal {
         auto1.color = "rojo";
         auto1.encendido = false;
         
-        auto1.apagar();
+        //auto1.apagar();
       
         
         
         auto1.setAnio(2010);
         
         
-        System.out.println("el auto1 es del año : "  + auto1.getAnio()); 
+        //System.out.println("el auto1 es del año : "  + auto1.getAnio()); 
         
         
         
@@ -50,19 +50,21 @@ public class principal {
         
         
        
-        if(auto1.estaencendido()==true){
+       /* if(auto1.estaencendido()==true){
         
-        System.out.println("el auto1 esta encendido");  
+        *System.out.println("el auto1 esta encendido");  
+        *
+        *TODO code application logic here
+        *}
+        *
+        * else{
+        * 
+        * System.out.println("el auto1 esta apagado"); 
+        * }
+        */
         
-        // TODO code application logic here
-        }
-    
-        else{
-        
-        System.out.println("el auto1 esta apagado");  
-        
-        
-        
-}
+        auto1.encender();
+        auto1.acelerar(67);
+
 }
 }
